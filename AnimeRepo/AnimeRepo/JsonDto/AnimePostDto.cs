@@ -5,13 +5,15 @@ public class AnimePostDto
     
     
     public string AnimeName { get; set; }
-    public List<EGenre> Genre { get; set; }
-
-    public AnimePostDto(string a, List<EGenre> g)
+    public List<int> Genre { get; set; }
+    public AnimePostDto(string a, List<int> g)
     {
         AnimeName = a;
         Genre = g;
     }
-    
+
+    public AnimePostDto()
+    {
+    }
     
 }

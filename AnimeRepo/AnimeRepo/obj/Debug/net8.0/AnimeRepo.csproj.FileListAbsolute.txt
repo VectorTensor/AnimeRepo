@@ -137,3 +137,7 @@ C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\obj\Debug\net8.0\refint\AnimeRepo.dll
 C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\obj\Debug\net8.0\AnimeRepo.pdb
 C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\obj\Debug\net8.0\AnimeRepo.genruntimeconfig.cache
 C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\obj\Debug\net8.0\ref\AnimeRepo.dll
+C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\prayash\AnimeRepo\AnimeRepo\AnimeRepo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

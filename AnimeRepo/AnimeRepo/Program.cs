@@ -13,6 +13,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -36,8 +38,9 @@ app.UseRouting();
 
 app.MapControllers();
 app.UseAuthorization();
+app.UseSwaggerUI();
 
-
+app.UseSwagger(x=> x.SerializeAsV2= true);
 // app.MapRazorPages();
 
 app.Run();

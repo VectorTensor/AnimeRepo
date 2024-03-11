@@ -5,12 +5,25 @@ namespace AnimeRepo.Controllers;
 
 public class AnimeController : Controller
 {
-    [Route("Anime")]
+    [HttpGet("Anime")]
+    [HttpGet("")]
     public AnimeGetDto Index()
     {
 
         return new AnimeGetDto("Naruto", new List<EGenre>() { EGenre.Action, EGenre.Comedy });
 
 
+    }
+
+    [HttpPost("Anime/Add")]
+    public IActionResult AddAnime([FromBody] AnimePostDto anime)
+    {
+
+        if (anime == null)
+        {
+            return BadRequest();
+        }
+        
+        return Ok(anime);
     }
 }

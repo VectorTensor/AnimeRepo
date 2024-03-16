@@ -43,6 +43,8 @@ public class AnimeController : Controller
             return BadRequest();
         }
         
+        _animeService.AddData(anime);
+        
         return Ok(anime);
     }
 }

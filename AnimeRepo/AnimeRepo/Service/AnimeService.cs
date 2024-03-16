@@ -28,4 +28,16 @@ public class AnimeService
         return y;
 
     }
+
+    public void AddData(AnimePostDto anime)
+    {
+
+        AnimeModel animeModel = new AnimeModel
+        {
+            AnimeName = anime.AnimeName,
+            Genre = _context.GenreModels.Where(x => anime.Genre.Contains(x.GenreModelId -1)).ToList()
+        };
+        _context.Add(animeModel);
+        _context.SaveChanges();
+    }
 }

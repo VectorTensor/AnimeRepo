@@ -20,3 +20,7 @@ The number represents the genre
 2-> Comedy
 3-> SOL
 4-> Mystery
+
+## Future Work 
+Might make the getting anime request more complex using some recommendation algorithm in the future.
+

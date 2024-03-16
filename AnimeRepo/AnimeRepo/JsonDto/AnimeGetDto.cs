@@ -5,11 +5,13 @@ public class AnimeGetDto
     public string AnimeName { get; set; }
     public List<EGenre> Genre { get; set; }
 
-    public AnimeGetDto(string a, List<EGenre> g)
-    {
-        AnimeName = a;
-        Genre = g;
-    }
+  
     
 
+}
+
+public class TestDto
+{
+    public string AnimeName;
+    public List<EGenre> x;
 }

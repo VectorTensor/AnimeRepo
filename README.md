@@ -1,6 +1,6 @@
 # Introduction 
 This is a basic Web API created using ASP.net. You can perform a get request to get a random anime. Also you can add your own anime to the repository. Only thing required are the name of the anime and its genre.
-I have also implemented simple swagger UI. I used AWS RDS for database. I used MS-SQL server as the database.
+I have also implemented simple swagger UI. I used AWS RDS for database. I used MS-SQL server as the database. This application was deployed using AWS lambda and aws api gateway.
 
 ## Post Request JSON
 {

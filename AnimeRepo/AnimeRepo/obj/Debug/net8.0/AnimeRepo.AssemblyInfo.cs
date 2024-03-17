@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeRepo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b0279454be88e86a1ca1cd71d9af53e39e5955")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d63784ed98d60f914bf9be5abd61428aeba4c48")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeRepo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeRepo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
